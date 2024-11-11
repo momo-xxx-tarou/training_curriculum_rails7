@@ -18,7 +18,9 @@ class CalendarsController < ApplicationController
   end
 
   def prepare_week
+
     wdays = ['(日)', '(月)', '(火)', '(水)', '(木)', '(金)', '(土)']
+
 
     @todays_date = Date.today
 
